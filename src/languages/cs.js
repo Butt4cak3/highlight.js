@@ -122,7 +122,14 @@ function(hljs) {
         beginKeywords: 'class interface', end: /[{;=]/,
         illegal: /[^\s:,]/,
         contains: [
-          hljs.TITLE_MODE,
+          {
+            begin: TYPE_IDENT_RE + '\\s*', returnBegin: true,
+            contains: [
+              hljs.TITLE_MODE,
+              { begin: '<', end: '>\\s*' }
+            ],
+            relevance: 0
+          },
           hljs.C_LINE_COMMENT_MODE,
           hljs.C_BLOCK_COMMENT_MODE
         ]

@@ -1,24 +1,29 @@
 {
-  "name": "highlight.js",
-  "description": "Syntax highlighting with language autodetection.",
+  "name": "algorithmarchive-highlight.js",
+  "description": "Syntax highlighting with language autodetection. Includes fixes used by the Arcane Algorithm Archive",
   "keywords": [
     "highlight",
     "syntax"
   ],
   "homepage": "https://highlightjs.org/",
-  "version": "9.12.0",
+  "version": "9.12.2",
   "author": {
     "name": "Ivan Sagalaev",
     "email": "maniac@softwaremaniacs.org"
   },
-  "contributors": [],
+  "contributors": [
+    {
+      "name": "Marius Becker",
+      "email": "marius.becker.8@gmail.com"
+    }
+  ],
   "bugs": {
-    "url": "https://github.com/isagalaev/highlight.js/issues"
+    "url": "https://github.com/butt4cak3/highlight.js/issues"
   },
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "git://github.com/isagalaev/highlight.js.git"
+    "url": "git://github.com/butt4cak3/highlight.js.git"
   },
   "main": "./lib/index.js",
   "scripts": {
