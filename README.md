@@ -1,6 +1,12 @@
-# Highlight.js
+This repository contains a custom version of highlight.js for the
+[Arcane Algorithm Archive](https://algorithm-archivists.github.io/). It contains
+some fixes for issues that we encountered during the writing of the book. If you
+want to use highlight.js for your own project, then you should probably use the
+official version or find a fork that's being actively maintained.
 
-[![Build Status](https://travis-ci.org/isagalaev/highlight.js.svg?branch=master)](https://travis-ci.org/isagalaev/highlight.js)
+---
+
+# Highlight.js
 
 Highlight.js is a syntax highlighter written in JavaScript. It works in
 the browser as well as on the server. It works with pretty much any
