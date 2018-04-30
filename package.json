@@ -18,12 +18,12 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/butt4cak3/highlight.js/issues"
+    "url": "https://github.com/algorithm-archivists/highlight.js/issues"
   },
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "git://github.com/butt4cak3/highlight.js.git"
+    "url": "git://github.com/algorithm-archivists/highlight.js.git"
   },
   "main": "./lib/index.js",
   "scripts": {
